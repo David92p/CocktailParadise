@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* BUTTONS */
+
+.btn {
+  @apply rounded-full font-bold text-lg text-center w-32 h-10 tracking-wide disabled:opacity-30 transition bg-green-200 hover:bg-green-300 text-black;
+}
+
+.container-search {
+  @apply flex flex-col gap-2 justify-center items-center py-8;
+  @apply 2xl:flex 2xl:flex-row 2xl:items-center 2xl:my-auto relative;
+}
+
+.container-search input {
+  @apply resize-none rounded-md text-xl align-text-bottom h-10 px-2 outline-none;
+}
+
+.container-search input.error {
+  @apply border-4 border-red-600;
+}

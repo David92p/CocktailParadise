@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* NAVBAR */
+
+.container-nav {
+  @apply bg-slate-700;
+  @apply sm:flex sm:flex-col;
+  @apply 2xl:flex 2xl:flex-row 2xl:justify-around border-b-2 border-gray-500;
+}
+
+.container-logo {
+  @apply flex items-center justify-center font-extrabold text-2xl mx-2;
+  @apply 2xl:flex 2xl:flex-col;
+}
+
+.container-link {
+  @apply flex flex-col items-center gap-10 my-6;
+  @apply 2xl:flex 2xl:flex-row 2xl:gap-40 2xl:font-medium;
+}
+
+.container-link a {
+  @apply text-xl font-extrabold text-white;
+  @apply sm:text-2xl;
+  @apply 2xl:hover:text-green-400 2xl:text-xl 2xl:font-extrabold;
+}
+
+.burger {
+  @apply 2xl:hidden;
+  @apply text-4xl cursor-pointer absolute left-[85%] top-10;
+}
