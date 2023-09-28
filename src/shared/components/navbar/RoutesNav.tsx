@@ -28,6 +28,10 @@ const RoutesNav: React.FC = () => {
       element: <DrinkDetails />,
     },
     {
+      path: "drink/:name",
+      element: <DrinkDetails />,
+    },
+    {
       path: "about",
       element: <About />,
     },
