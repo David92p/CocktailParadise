@@ -25,7 +25,7 @@ const Navbar: React.FC = () => {
   return (
     <div className="container-nav">
       <div className="container-logo">
-        <Link to="home">
+        <Link to="/">
           <img
             src={logo}
             alt="logo"
@@ -48,7 +48,7 @@ const Navbar: React.FC = () => {
         )}
       </div>
       <div className="container-link absolute top-[-100%] 2xl:relative 2xl:top-[100%]">
-        <NavLink to="home">Home</NavLink>
+        <NavLink to="/">Home</NavLink>
         <NavLink to="ingredients">Ingredients</NavLink>
         <NavLink to="about">About</NavLink>
         <NavLink to="contact">Contact</NavLink>
