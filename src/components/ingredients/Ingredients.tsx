@@ -56,7 +56,7 @@ const Ingredients: React.FC = () => {
   }, [ingredient]);
 
   return (
-    <div className="flex flex-col bg-gradient-to-tr from-green-300 to-green-100">
+    <div className="flex flex-col bg-gradient-to-r from-green-300 to-green-100">
       <div className="flex flex-col pt-6">
         {error ? (
           <ErrorServer />
@@ -99,9 +99,9 @@ const Ingredients: React.FC = () => {
       {cardsCocktail.length > 0 ? (
         <Carousel cards={cardsCocktail} />
       ) : (
-        <h1 className="text-xl text-center font-bold items-center">
-          Sorry, there is currently no data for the selected ingredient
-        </h1>
+        <div className="flex justify-center items-center text-justify px-4 pt-2 text-xl font-bold sm:h-44">
+          Sorry, there is currently no drink data for the selected ingredient
+        </div>
       )}
 
       <div className="w-[100%] text-2xl sm:text-4xl lg:text-5xl 2xl:text-4xl text-justify 2xl:text-justify 2xl:mx-auto p-4 sm:p-8">
