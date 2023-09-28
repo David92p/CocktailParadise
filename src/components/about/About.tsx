@@ -6,7 +6,7 @@ import foto3 from "../../assets/TheCocktailDB3.png";
 
 const About: React.FC = () => {
   return (
-    <div className="flex flex-col justify-center items-center w-full p-4 min-h-screen bg-gradient-to-r from-green-200 to-green-100">
+    <div className="flex flex-col justify-center items-center w-full p-4 min-h-screen bg-gradient-to-r from-green-300 to-green-100">
       <div className="w-full bg-slate-100 rounded-2xl">
         <h1 className="text-4xl font-bold text-center py-2">
           The Cocktail Paradise

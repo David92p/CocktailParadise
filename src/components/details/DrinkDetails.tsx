@@ -105,7 +105,7 @@ const DrinkDetails: React.FC = () => {
 
   return (
     <div className="flex flex-col items-center bg-slate-100 w-[100%]">
-      <div className="bg-green-100 2xl:w-[90%] flex flex-col items-center 2xl:flex-row py-8 2xl:my-4 2xl:rounded-xl">
+      <div className="bg-gradient-to-r from-green-300 to-green-100 2xl:w-[90%] flex flex-col items-center 2xl:flex-row py-8 2xl:my-4 2xl:rounded-xl">
         {/* COCKTAIL PHOTO CONTAINER */}
         <div className="flex flex-col justify-center items-center gap-4 2xl:gap-10 text-slate-700 border-l-2 border-b-2 border-slate-700 rounded-bl-2xl rounded-tr-2xl mx-14 sm:mx-44 bg-slate-100 shadow-2xl shadow-slate-900">
           <img
@@ -193,7 +193,7 @@ const DrinkDetails: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="bg-green-100 w-[100%] 2xl:w-[90%] h-auto text-lg sm:text-2xl lg:text-4xl 2xl:text-3xl text-justify 2xl:text-center p-4 sm:p-8 2xl:mb-2 2xl:rounded-lg font-medium">
+      <div className="bg-gradient-to-r from-green-300 to-green-100 w-[100%] 2xl:w-[90%] h-auto text-lg sm:text-2xl lg:text-4xl 2xl:text-3xl text-justify 2xl:text-center p-4 sm:p-8 2xl:mb-2 2xl:rounded-lg font-medium">
         This cocktail is on our list {cocktailDetails?.category}, we advise you
         to serve it in a glass {cocktailDetails?.glass}.
       </div>
