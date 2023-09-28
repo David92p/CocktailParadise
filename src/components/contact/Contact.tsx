@@ -27,14 +27,16 @@ const Contact: React.FC = () => {
     };
     try {
       await axios.post("https://api.emailjs.com/api/v1.0/email/send", DATA);
+      setSuccess(true);
+    } catch (error) {
+      setError(true);
+    }
+    finally {
       setUser_name("");
       setUser_surname("");
       setUser_email("");
       setUser_messae("");
       setUser_check(false);
-      setSuccess(true);
-    } catch (error) {
-      setError(true);
     }
   };
 
