@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import React from "react";
 import Slider from "react-slick";
 import { Drink } from ".."; //Components
@@ -9,7 +10,7 @@ interface CardsCarousel {
   cards: Card[];
 }
 
-const Next = (props) => {
+const Next = (props: { className: any; style: any; onClick: any }) => {
   const { className, style, onClick } = props;
   return (
     <div
@@ -20,7 +21,7 @@ const Next = (props) => {
   );
 };
 
-const Prev = (props) => {
+const Prev = (props: { className: any; style: any; onClick: any }) => {
   const { className, style, onClick } = props;
 
   return (
@@ -38,8 +39,12 @@ const Carousel: React.FC<CardsCarousel> = ({ cards }) => {
     speed: 500,
     slidesToShow: cards.length >= 4 ? 4 : cards.length,
     slidesToScroll: 1,
-    nextArrow: <Next />,
-    prevArrow: <Prev />,
+    nextArrow: (
+      <Next className={undefined} style={undefined} onClick={undefined} />
+    ),
+    prevArrow: (
+      <Prev className={undefined} style={undefined} onClick={undefined} />
+    ),
 
     responsive: [
       {
