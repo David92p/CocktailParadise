@@ -38,12 +38,7 @@ const DrinkDetails: React.FC = () => {
   };
 
   useEffect(() => {
-    fetch(
-      `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${name?.replace(
-        "/",
-        "-"
-      )}`
-    )
+    fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${name}`)
       .then((res) => res.json())
       .then((res) => {
         const {

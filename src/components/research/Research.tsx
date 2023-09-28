@@ -51,8 +51,10 @@ const Research: React.FC<ResearchType> = ({ link, name, setIngredient }) => {
     setIsOpen(false);
     if (name == "navbar") {
       if (wordCall) {
+        if (wordCall == "9 1/2 Weeks") navigate(`drink/${"Weeks"}`);
+        else if (wordCall == "50/50") navigate(`drink/${"50"}`);
+        else navigate(`details/${wordCall}`);
         setIsError(false);
-        navigate(`drink/${wordCall}`);
         window.location.reload();
       }
     } else if (name == "ingredients") {
