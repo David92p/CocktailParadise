@@ -1,5 +1,5 @@
 import React from "react";
-import { Navigate, useRoutes } from "react-router-dom";
+import { useRoutes } from "react-router-dom";
 import {
   About,
   Contact,
@@ -12,11 +12,11 @@ import Main from "../main/Main";
 const RoutesNav: React.FC = () => {
   return useRoutes([
     {
-      path: "home",
+      path: "/",
       element: <Main />,
     },
     {
-      path: "home/details/:name",
+      path: "/details/:name",
       element: <DrinkDetails />,
     },
     {
@@ -34,14 +34,6 @@ const RoutesNav: React.FC = () => {
     {
       path: "contact",
       element: <Contact />,
-    },
-    {
-      path: "drink/:name",
-      element: <DrinkDetails />,
-    },
-    {
-      path: "/",
-      element: <Navigate to="home" />,
     },
     {
       path: "*",
