@@ -18,7 +18,9 @@ const Drink: React.FC<Card> = ({ id, name, img }) => {
       <div
         className="flex items-center justify-center py-auto w-[100%] h-[30%] bg-white rounded-b-2xl px-3"
         onClick={() => {
-          navigate(`details/${name}`);
+          if (name == "9 1/2 Weeks") navigate(`details/${"weeks"}`);
+          else if (name == "50/50") navigate(`details/${"50"}`);
+          else navigate(`details/${name}`);
         }}
       >
         <h1 className="text-xl sm:text-lg font-extrabold my-auto text-center">
