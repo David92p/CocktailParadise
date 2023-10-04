@@ -1,6 +1,6 @@
 <br />
 <div align="center">
-     <img src="https://cdn.pixabay.com/photo/2015/08/25/16/12/lime-907124_1280.jpg" alt="Logo" width="80" height="80">
+     <img src="/dist/assets/logo-11f1a9ec.png" alt="Logo" width="80" height="80">
 
 <h2 align="center">CocktailParadise</h2>
 <br/>
