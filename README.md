@@ -149,10 +149,10 @@ Distributed under the MIT License.
 
 ## Contact
 
-Linkedin - [<img src="./src/assets/linkedin.png" target="_blank" alt="Linkeding-icon" width="80" height="80"></img>](https://it.linkedin.com/in/davide-panetta-065420207)
+Linkedin - [<img src="./src/assets/linkedin.png" target="_blank" alt="Linkeding-icon" width="50" heigth="30"></img>](https://it.linkedin.com/in/davide-panetta-065420207)
 
-GitHub - [<img src="./src/assets//git-hub.png" target="_blank" alt="GitHub-icon" width="80" height="80"></img>](https://github.com/David92p)
+GitHub - [<img src="./src/assets//git-hub.png" target="_blank" alt="GitHub-icon" width="50" heigth="30"></img>](https://github.com/David92p)
 
-Project Link - [<img src="./dist/assets/logo-11f1a9ec.png" target="_blank" alt="ProjectLogo-icon" width="80" height="80"></img>](https://github.com/David92p/CocktailParadise/tree/main)
+Project Link - [<img src="./dist/assets/logo-11f1a9ec.png" target="_blank" alt="ProjectLogo-icon" width="50" heigth="30"></img>](https://github.com/David92p/CocktailParadise/tree/main)
 
 
