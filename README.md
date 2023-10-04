@@ -1,6 +1,6 @@
 <br />
 <div align="center">
-     <img src="/dist/assets/logo-11f1a9ec.png" alt="Logo" width="80" height="80">
+     <img src="https://cdn.pixabay.com/photo/2015/08/25/16/12/lime-907124_1280.jpg" alt="Logo" width="80" height="80">
 
 <h2 align="center">CocktailParadise</h2>
 <br/>
@@ -57,3 +57,25 @@
    npm run dev
    ```
 4. Press "o" or click the link in the terminal.
+
+## Usage
+
+<ul style="list-style-type: none;">
+    <li>
+      <h4>Navigating the Home</h4>
+      <img src="/dist/assets/home.gif" alt="home">
+      <ul>
+        <li>Scroll through the cart with different random cocktails</li>
+        <li>Search for your cocktails by category, glass and selected type, press the button to start your search and scroll through the results</li>
+      </ul>
+    </li>
+    <li>
+      <h4>Navigating the Ingredients</h4>
+      <img src="/dist/assets/ingredients.gif" alt="ingredients">
+      <ul>
+        <li>Use the Next and Prev buttons to scroll through random ingredients.</li>
+        <li>Look at the results for your ingredient and scroll to them if the search is large.</li>
+        <li>Use the search if you need a specific ingredient. When possible a brief description of the ingredient will be at your disposal.</li>
+      </ul>
+    </li>
+  </ul>
