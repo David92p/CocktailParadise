@@ -41,3 +41,19 @@
 <img src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E" alt="vite">
 </li>
 </ul>
+
+## Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/David92p/CocktailParadise.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Run
+   ```sh
+   npm run dev
+   ```
+4. Press "o" or click the link in the terminal.
