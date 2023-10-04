@@ -89,7 +89,7 @@
     <li>
       <h4>Navigating the About</h4>
       <div align="center">
-        <img src="/dist/assets/about.png" alt="about">
+        <img src="/dist/assets/about.png" alt="about" width="600" heigth="300">
       </div>
       <br />
       <ul>
@@ -101,7 +101,7 @@
     <li>
       <h4>Navigating the Contact</h4>
       <div align="center">
-        <img src="/dist/assets/contact.png" alt="contact">
+        <img src="/dist/assets/contact.png" alt="contact" width="600" heigth="300">
       </div>
       <br />
       <ul>
