@@ -149,10 +149,10 @@ Distributed under the MIT License.
 
 ## Contact
 
-<div style="display: block; 
+<div style="display: block;
            margin-left: auto;
            margin-right: auto;
-           width: 30%;">
+           width: 30">
      Linkedin - [<img src="./src/assets/linkedin.png" target="_blank" alt="Linkeding-icon" width="50" heigth="30"></img>](https://it.linkedin.com/in/davide-panetta-065420207)
 </div>
 
