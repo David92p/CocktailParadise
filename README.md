@@ -101,7 +101,7 @@
     <li>
       <h4>Navigating the Contact</h4>
       <div align="center">
-        <img src="/dist/assets/contact.png" alt="contact" width="200px" height="100px">
+        <img src="/dist/assets/contact.png" alt="contact" width="500px" height="100px">
       </div>
       <br />
       <ul>
