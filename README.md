@@ -155,5 +155,5 @@ GitHub - [<img align="center" src="./src/assets//git-hub.png" target="_blank" al
 
 Project Link - [https://github.com/David92p/CocktailParadise/tree/main](https://github.com/David92p/CocktailParadise/tree/main)
 
-Live Demo - [https://github.com/David92p/CocktailParadise/tree/main](https://github.com/David92p/CocktailParadise/tree/main)
+Live Demo - [https://cocktailsparadise.netlify.app/](https://cocktailsparadise.netlify.app/)
 
