@@ -86,4 +86,28 @@
       </ul>
     </li>
     <br />
+    <li>
+      <h4>Navigating the About</h4>
+      <div align="center">
+        <img src="/dist/assets/about.png" alt="about">
+      </div>
+      <br />
+      <ul>
+        <li>A brief description of the application is present at the top of the page</li>
+        <li>Tools and resources used for development are present in the central body of the page.</li>
+      </ul>
+    </li>
+    <br />
+    <li>
+      <h4>Navigating the Contact</h4>
+      <div align="center">
+        <img src="/dist/assets/contact.png" alt="contact">
+      </div>
+      <br />
+      <ul>
+        <li>Use the contact form for any information regarding the code.</li>
+        <li>Contact me if you think about making improvements to the project or simply want information about it.</li>
+      </ul>
+    </li>
+    <br />
   </ul>
