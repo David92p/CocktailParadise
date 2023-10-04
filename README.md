@@ -149,7 +149,12 @@ Distributed under the MIT License.
 
 ## Contact
 
-Linkedin - [<img src="./src/assets/linkedin.png" target="_blank" alt="Linkeding-icon" width="50" heigth="30"></img>](https://it.linkedin.com/in/davide-panetta-065420207)
+<div style="display: block; 
+           margin-left: auto;
+           margin-right: auto;
+           width: 30%;">
+     Linkedin - [<img src="./src/assets/linkedin.png" target="_blank" alt="Linkeding-icon" width="50" heigth="30"></img>](https://it.linkedin.com/in/davide-panetta-065420207)
+</div>
 
 GitHub - [<img src="./src/assets//git-hub.png" target="_blank" alt="GitHub-icon" width="50" heigth="30"></img>](https://github.com/David92p)
 
