@@ -89,7 +89,7 @@
     <li>
       <h4>Navigating the About</h4>
       <div align="center">
-        <img src="/dist/assets/about.png" alt="about" width="600" height="300">
+        <img src="/dist/assets/about.png" alt="about">
       </div>
       <br />
       <ul>
@@ -101,7 +101,7 @@
     <li>
       <h4>Navigating the Contact</h4>
       <div align="center">
-        <img src="/dist/assets/contact.png" alt="contact" width="600" height="300">
+        <img src="/dist/assets/contact.png" alt="contact">
       </div>
       <br />
       <ul>
@@ -111,3 +111,38 @@
     </li>
     <br />
   </ul>
+  
+  ## Technical Choices
+  
+  
+  <ul
+    <li><h3>React</h3></li>
+    <ul>
+        <li>It was chosen for its practicality in integrating with the numerous libraries available and exploiting dynamic and engaging interfaces thanks to its component-based structure and virtual DOM.</li>
+     </ul>
+  </ul>
+  <ul
+    <li><h3>Typescript</h3></li>
+    <ul>
+        <li>Type checking in a project helped me find any code errors earlier and be able to fix them in less time than pure JS.</li>
+     </ul>
+  </ul>
+  <h4></h4>
+    <ul
+    <li><h3>TailwindCSS</h3></li>
+    <ul>
+        <li>Used to model the application smoothly and efficiently through the classes provided by the library.</li>
+     </ul>
+  </ul>
+  <h4></h4>
+    <ul
+    <li><h3>React Router</h3></li>
+    <ul>
+        <li>The use of this library was necessary to allow the client to navigate smoothly and render different views in the application.</li>
+     </ul>
+  </ul>
+  <br>
+  
+  ## License
+
+Distributed under the MIT License.
