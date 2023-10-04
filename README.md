@@ -63,7 +63,9 @@
 <ul style="list-style-type: none;">
     <li>
       <h4>Navigating the Home</h4>
-      <img src="/dist/assets/home.gif" alt="home" align="center">
+      <div align="center">
+        <img src="/dist/assets/home.gif" alt="home" align="center">
+      </div>
       <br />
       <ul>
         <li>Scroll through the cart with different random cocktails</li>
@@ -73,7 +75,9 @@
     <br />
     <li>
       <h4>Navigating the Ingredients</h4>
-      <img src="/dist/assets/ingredients.gif" alt="ingredients" align="center">
+      <div align="center">
+        <img src="/dist/assets/ingredients.gif" alt="ingredients">
+      </div>
       <br />
       <ul>
         <li>Use the Next and Prev buttons to scroll through random ingredients.</li>
