@@ -146,3 +146,15 @@
   ## License
 
 Distributed under the MIT License.
+
+## Contact
+
+Linkedin [<img src="./src/assets/linkedin.png"></img>](https://it.linkedin.com/in/davide-panetta-065420207)
+
+Github - 
+
+Project Link - 
+
+Live Demo - 
+
+
