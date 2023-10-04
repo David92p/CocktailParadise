@@ -148,9 +148,7 @@
 Distributed under the MIT License.
 
 ## Contact
-<div align="center">
-     Linkedin - [<img src="./src/assets/linkedin.png" target="_blank" alt="Linkeding-icon" width="30" height="30"></img>](https://it.linkedin.com/in/davide-panetta-065420207)
-</div>
+ Linkedin - [<img align="center" src="./src/assets/linkedin.png" target="_blank" alt="Linkeding-icon" width="30" height="30"></img>](https://it.linkedin.com/in/davide-panetta-065420207)
 
 
 GitHub - [<img src="./src/assets//git-hub.png" target="_blank" alt="GitHub-icon" width="80" height="80"></img>](https://github.com/David92p)
